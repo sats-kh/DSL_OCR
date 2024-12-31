@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSLAB OCR Result</title>
+    <!-- CSS 파일 로드 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>OCR Result</h1>
+        <img src="{{ image_url }}" alt="Uploaded Image">
+        <p><strong>Extracted Text:</strong></p>
+        <div class="result-text">
+            {{ result }}
+        </div>
+        <a href="/">Upload Another Image</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* 최대 너비를 제한 */
+    margin: auto; /* 가운데 정렬 */
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+input[type="file"] {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #999;
+}
+
+img {
+    max-width: 100%; /* 화면에 맞게 이미지 크기를 제한 */
+    width: 300px; /* 이미지를 고정된 크기로 제한 */
+    border-radius: 5px;
+    margin-top: 20px;
+}
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+.result-text {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    line-height: 1.6; /* 줄 간격 조정 */
+    overflow: auto; /* 스크롤 가능 */
+    word-wrap: break-word; /* 긴 단어를 줄바꿈 */
+    max-height: 200px; /* 결과 영역의 최대 높이 */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
